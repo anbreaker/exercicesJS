@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <style>
+      .form {
+        width: 90%;
+        text-align: center;
+      }
+
+      .form__field {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">Forms 1</h1>
+    <form action="/google.es" method="POST" class="form" id="form">
+      <div class="form__field">
+        <label for="name" class="form__label">Name</label>
+        <input type="text" id="name" name="name" />
+      </div>
+
+      <div class="form__field">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" />
+      </div>
+
+      <div id="gender" class="form__field">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="male" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female" />
+      </div>
+
+      <div class="form__field">
+        <label for="terms">I accept terms and conditions</label>
+        <input type="checkbox" name="terms" id="terms" />
+      </div>
+      <button id="submitButton" disabled>Send</button>
+    </form>
+
+    <script src="forms.js"></script>
+  </body>
+</html>
