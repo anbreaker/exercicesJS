@@ -23,7 +23,7 @@ Comodines:
   [aeiou] Con esto cogeríamos todas las vocales
   -Rangos: Entre corchetes si ponemos un guión entre dos caracteres establecemos 
   un rango. [a-z] Todas las letras minúsculas.
-  Tabla ASCII https://ascii.cl/es/
+    Tabla ASCII https://ascii.cl/es/
   -Mezcla entre rangos y listas: 
     Podemos unir los dos anteriores en una sola expresión. [0-5ou] Serían números 
     del 0 al 5, la letra "o" y la letra "u"
@@ -37,7 +37,8 @@ Comodines:
     $ Después de este símbolo no puede haber nada
     ^hola$
   Cantidad:
-    - llaves: lo que está antes tiene que aparecer la cantidad exacta de veces. Hay tres combinaciones posibles. 
+    - llaves: lo que está antes tiene que aparecer la cantidad exacta de veces. 
+    Hay tres combinaciones posibles. 
       {n} Se tiene que repetir n veces
       {n,m} Se tiene que repetir entre n y m veces, ambas incluidas.
       {n,} Se tiene que repetir como mínimo n veces y sin máximo
@@ -49,7 +50,8 @@ Comodines:
     A-[0-9]+
   
   Caracteres:
-    \s: Coincide con un carácter de espacio, entre ellos incluidos espacio, tab, salto de página, salto de linea y retorno de carro. ^[a-zA-Z]+\s[a-zA-Z]+$
+    \s: Coincide con un carácter de espacio, entre ellos incluidos espacio, tab, salto de 
+        página, salto de linea y retorno de carro. ^[a-zA-Z]+\s[a-zA-Z]+$
     \S: Coincide con todo menos caracteres de espacio ^\S{5}$
     \d: Coincide con un carácter de número. Equivalente a [0-9] ^\d{5}$
     \D: Coincide con cualquier carácter no numérico. Equivalente a [^0-9] ^\D{5}$
