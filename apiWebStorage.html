@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API WebStorage</title>
+    <link rel="stylesheet" href="validate.css" />
+  </head>
+  <body>
+    <h1>API WebStorage</h1>
+
+    <form id="form" class="form">
+      <div class="form__field">
+        <label for="key">Key</label>
+        <input type="text" name="key" id="key" />
+      </div>
+      <div class="form__field">
+        <label for="value">Value</label>
+        <input type="text" name="value" id="value" />
+      </div>
+      <input type="submit" value="Save" />
+    </form>
+
+    <div class="info" id="info">
+      <select name="keys" id="keys">
+        <option value="default">Select key</option>
+      </select>
+      <p id="infoValue"></p>
+    </div>
+    <script src="apiWebStorage.js"></script>
+  </body>
+</html>
