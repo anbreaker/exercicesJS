@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  color: azure;
+  background-color: #0b1017;
+  font-family: sans-serif;
+  user-select: none;
+}
+
+.titleWeb {
+  text-align: center;
+}
+
+.container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.title {
+  margin: 0 0 0 1rem;
+  text-align: center;
+  background: rgb(48, 166, 221);
+  border: 1px solid black;
+  min-height: 130px;
+}
+
+.tasks:first-child {
+  margin-right: 1rem;
+}
+
+.task {
+  background-color: #ec407a;
+  padding: 1rem;
+  border-bottom: 1px solid #fff;
+  cursor: move;
+}
+
+.task:first-child {
+  border-top: 1px solid #fff;
+}
+
+.task:last-child {
+  border-bottom: none;
+}
+
+.active {
+  background-color: #fff;
+  color: azure;
+}

@@ -1,0 +1,16 @@
+body {
+  color: azure;
+  background-color: #0b1017;
+  font-family: sans-serif;
+}
+
+.smile {
+  width: 50px;
+}
+
+.drop-zone {
+  height: 150px;
+  border: 5px dotted azure;
+  width: 100%;
+  margin-top: 3rem;
+}
