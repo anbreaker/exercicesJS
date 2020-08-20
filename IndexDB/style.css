@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: #2f3238;
+  font-family: sans-serif;
+  color: azure;
+  user-select: none;
+  font-size: 2rem;
+}
+
+.title {
+  color: azure;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.form {
+  width: 100%;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.form__button {
+  background: #ffa600;
+  border: none;
+  padding: 0.3rem 1rem;
+  border-radius: 0.9375rem;
+  cursor: pointer;
+}
