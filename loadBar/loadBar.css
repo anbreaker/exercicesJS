@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  color: azure;
+  background-color: #0b1017;
+  user-select: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.load-bar {
+  width: 50%;
+  background-color: #ccc;
+  height: 1rem;
+  position: relative;
+  margin: 1rem 0;
+}
+
+.progress {
+  display: block;
+  background-color: royalblue;
+  height: 1rem;
+  width: 0;
+}

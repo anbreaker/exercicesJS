@@ -1,0 +1,10 @@
+body {
+  font-family: sans-serif;
+  color: azure;
+  background-color: #0b1017;
+  user-select: none;
+}
+
+img {
+  max-width: 100%;
+}
