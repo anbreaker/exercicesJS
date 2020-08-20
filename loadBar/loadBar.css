@@ -1,8 +1,11 @@
+:root {
+  --bar-widht: 0;
+}
+
 body {
   font-family: sans-serif;
   color: azure;
   background-color: #0b1017;
-  user-select: none;
 }
 
 img {
@@ -15,6 +18,17 @@ img {
   height: 1rem;
   position: relative;
   margin: 1rem 0;
+}
+
+.load-bar::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: royalblue;
+  width: var(--bar-widht);
+  height: 1rem;
 }
 
 .progress {
