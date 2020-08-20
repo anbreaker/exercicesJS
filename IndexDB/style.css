@@ -20,10 +20,23 @@ body {
   text-align: center;
 }
 
-.form__button {
+.form {
+  width: 100%;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.button {
   background: #ffa600;
   border: none;
   padding: 0.3rem 1rem;
   border-radius: 0.9375rem;
   cursor: pointer;
+  margin: 1rem 0;
+}
+
+.tasks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
 }
