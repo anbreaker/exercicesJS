@@ -1,0 +1,15 @@
+body {
+  background-color: #2f3238;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+  overflow: auto;
+}
+
+.title {
+  font-size: 2rem;
+  color: azure;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
