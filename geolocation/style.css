@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  background-color: #2f3238;
+  font-family: sans-serif;
+  color: #222;
+  user-select: none;
+}
+
+.title {
+  font-size: 2rem;
+  color: azure;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.geolocationDiv {
+  font-size: 1.1rem;
+  color: azure;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  background: #ffa600;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border: none;
+  padding: 0.3rem 1rem;
+  border-radius: 0.9375rem;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
