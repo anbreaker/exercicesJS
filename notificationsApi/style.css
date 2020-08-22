@@ -13,3 +13,13 @@ body {
   margin-top: 5rem;
   margin-bottom: 2rem;
 }
+
+.button {
+  background: #ffa600;
+  font-size: 1.5rem;
+  border: none;
+  padding: 0.3rem 1rem;
+  border-radius: 0.9375rem;
+  cursor: pointer;
+  margin: 1rem 0;
+}
