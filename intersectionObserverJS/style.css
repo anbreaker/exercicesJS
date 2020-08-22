@@ -1,0 +1,43 @@
+body {
+  background-color: #2f3238;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+  overflow: auto;
+}
+
+.title {
+  font-size: 1.2rem;
+  color: azure;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.box {
+  background-color: rgb(255, 166, 0);
+  font-weight: 600;
+  color: azure;
+  font-size: 1.5rem;
+  margin-bottom: 100vh;
+  padding: 1.2rem 0;
+  position: relative;
+}
+
+.box::after {
+  content: "25%";
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 100%;
+  background-color: coral;
+  height: 25%;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+}
