@@ -24,6 +24,7 @@ const getPosition = (position) => {
   geo.textContent = geoInfo;
   geolocationDiv.appendChild(geo);
 };
+
 const error = (error) => console.log(error);
 
 const detectOS = () => {
