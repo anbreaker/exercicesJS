@@ -27,6 +27,7 @@ body {
   height: 30px;
   background-color: grey;
   border-radius: 25px;
+  user-select: none;
 }
 
 .switch::before {
